@@ -5,7 +5,6 @@ import LineChart from './Component/highchart/lineChartHG/LineChart';
 import ChoroplethMap from './Component/highchart/choroplethMapHG/ChoroplethMap';
 import MapWithMarker from './Component/highchart/MapWithMarker';
 import LineChartWithChartJs from './Component/chartjs/lineChartWithChartJs/LineChartWithChartJs';
-// import NetworkGraph from './Component/forceGraph/NetworkGraph';
 import NetworkGraphHG from './Component/forceGraph/NetworkGraphHG';
 import LineGraphWithWidget from './Component/dashboardWidget/chartjsLayout/ChartJsLayout';
 import BasicLayoutWithHighChart from './Component/dashboardWidget/highchartLayout/HighChartLayout';
@@ -16,6 +15,7 @@ import BasicLineChart from './Component/chartjs/lineChartWithChartJs/BasicLineCh
 import ChoroplethWithChangingData from './Component/leaflet/Choropleth/ChoroplethWithChangingData';
 import ChoroplethMapLeaflet from './Component/leaflet/Choropleth/ChoroplethMap';
 import MapWithMarkersLeaflet from './Component/leaflet/mapWithMarker/MapWithMarkers';
+import { BubbleChartWrapper, PieChart } from './Component/chartjs/DistributionChart';
 
 export const renderLeafLetMap = (MapComponent) => {
   return (
@@ -33,6 +33,7 @@ function App() {
         <ChoroplethMap />
         <MapWithMarker />
         <LineChartWithChartJs />
+        <BubbleChartWrapper />
         {/*<NetworkGraph />*/}
         <NetworkGraphHG />
         <LineGraphWithWidget />

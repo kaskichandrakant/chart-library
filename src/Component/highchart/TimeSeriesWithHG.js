@@ -29,7 +29,7 @@ const TimeSeriesWithHG = React.forwardRef((prop, ref) => {
       },
     },
     legend: {
-      enabled: false,
+      enabled: true,
     },
     plotOptions: {
       area: {

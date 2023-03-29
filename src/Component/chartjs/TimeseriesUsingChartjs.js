@@ -4,9 +4,9 @@ import 'chartjs-plugin-zoom';
 import moment from 'moment';
 import timeseriesData from '../../assets/timeseriesData.json';
 
-function newDate(days) {
-  return moment().add(days, 'd').toDate();
-}
+// function newDate(days) {
+//   return moment().add(days, 'd').toDate();
+// }
 
 function newDateString(days) {
   return moment().add(days, 'd').format();
